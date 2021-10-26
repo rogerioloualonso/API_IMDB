@@ -10,4 +10,6 @@ public interface MovieMinimalRestRepository {
 
     @GetMapping
     ResultSearch search(@RequestParam("s") String movieTitle);
+
+
 }
